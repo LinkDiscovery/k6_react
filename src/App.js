@@ -1,12 +1,11 @@
-
 import './App.css';
-import MyClock from './01_1/MyClock';
+import HelloCss from './02_tailwind/HelloCss';
 
 function App() {
   return (
     <>
       <div className="App">
-       <MyClock />
+       <HelloCss />
         <div></div>
       </div>
     </>

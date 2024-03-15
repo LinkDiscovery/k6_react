@@ -1,4 +1,4 @@
-import logo from '../colock.png'
+import logo from '../logo.svg'
 
 
 export default function HelloCssImage() {

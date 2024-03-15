@@ -3,8 +3,8 @@ export default function MyLIst({title, imgUrl, content}) {
     return (
 
             <div className="hover:bg-gray-100 flex flex-row justify-center ">
-                <div className="flex flex-col">
-                    <img className= 'rounded-full' src={imgUrl} alt='html'></img>
+                <div className="w-1/4 max-w-40 flex flex-col">
+                    <img className= 'rounded-full' src={imgUrl} alt={title}></img>
                 </div>
                 <div className="w-3/4 px-8 py-3 flex flex-col justify-start items-start">
                     <h1 className="text-2xl font-bold text-gray-700">{title}</h1>

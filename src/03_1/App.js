@@ -1,7 +1,5 @@
 import Mydiv1 from './03/Mydiv1'
 import Mydiv2 from './03/Mydiv2';
-import MyLIst from './04/MyLIst';
-import MyListMain from './04/MyListMain';
 import './App.css';
 
 
@@ -13,8 +11,7 @@ function App() {
         <div>리액트 실습</div>
       </header>
       <main className='glow flex flex-col justify-center text-center items-center h-full'>
-        <MyListMain/>
-        
+        <Mydiv1/>
       </main>
       <footer className='flex justify-center items-center text-white bg-slate-800 h-20'>
         @ 2024 shinkyunyoung. All rights reserved.

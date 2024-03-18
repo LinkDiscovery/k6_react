@@ -9,10 +9,12 @@ export default function MyListMain() {
                 imgUrl={item.imgUrl}
                 content={item.content}
                 key = {item.title}
+                
         />
     ) 
 
-
+    console.log(listData)
+    
   return (
     <div className="w-10/12 grid grid-flow-col-1 md:grid-cols-2 gap-4">
         {myItems}

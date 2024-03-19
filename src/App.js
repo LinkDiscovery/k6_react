@@ -2,7 +2,8 @@
 // import Mydiv2 from './03/Mydiv2';
 // import MyLIst from './04/MyLIst';
 // import MyListMain from './04/MyListMain';
-import BoxOfficeTb from './05_1/BoxOfficeTb';
+// import BoxOfficeTb from './05_1/BoxOfficeTb';
+import Lotto from './06/Lotto';
 import './App.css';
 
 
@@ -23,7 +24,7 @@ function App() {
             <th className="w-20">순위변화</th>
           </tr>
         </thead> */}
-        <BoxOfficeTb />
+        <Lotto />
 
       </main>
       <footer className='flex justify-center items-center text-white bg-slate-800 h-20'>

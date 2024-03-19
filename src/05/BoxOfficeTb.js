@@ -10,8 +10,11 @@ export default function BoxOfficeTb() {
     const [selmv, setselMv] = useState();
             // selmv 변수는 직접적으로 다룰 수가 없고 setselMv를 활용해서 selmv 에 접근한다. useState는 안에 selmv가 들어온 것을 감지한다.
             //state 변수를 사용하기위해서는 = 연산을 활용할수 없기 때문에 setsel 함수를 사용한다. 
-            // useState() 함수는 
+            // useState() 함수는 상태가 바뀔 때마다 렌더링 해주는 장치라고 생각하면된다.
+
     const handleClick = (mv) => {
+        //할당연산자로 state 변수 변경 불가 => 업데이트함수 변경
+        // selmv = mv;
         setselMv(mv);
     }
 

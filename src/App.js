@@ -2,7 +2,7 @@
 // import Mydiv2 from './03/Mydiv2';
 // import MyLIst from './04/MyLIst';
 // import MyListMain from './04/MyListMain';
-import BoxOfficeTb from './05/BoxOfficeTb';
+import BoxOfficeTb from './05_1/BoxOfficeTb';
 import './App.css';
 
 

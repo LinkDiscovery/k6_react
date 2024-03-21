@@ -3,7 +3,11 @@
 // import MyLIst from './04/MyLIst';
 // import MyListMain from './04/MyListMain';
 // import BoxOfficeTb from './05_1/BoxOfficeTb';
-import Lotto from './06/Lotto';
+// import Lotto from './06/Lotto';
+// import FoodCard from './07/FoodCard';/
+import FoodMain from './07/FoodMain';
+
+
 import './App.css';
 
 
@@ -14,7 +18,7 @@ function App() {
       <header className='flex justify-between items-center p-10 h-20 text-xl font-bold text-zinc-700 bg-lime-100'>
         <div>리액트 실습</div>
       </header>
-      <main className='glow flex flex-col justify-center text-center items-center h-full'>
+      <main className='glow flex flex-col justify-center text-start items-center '>
         {/* <thead>
           <tr className=" h-10 text-center bg-white-600 text-black">
             <th className="w-10">순위</th>
@@ -24,7 +28,8 @@ function App() {
             <th className="w-20">순위변화</th>
           </tr>
         </thead> */}
-        <Lotto />
+    
+        <FoodMain />
 
       </main>
       <footer className='flex justify-center items-center text-white bg-slate-800 h-20'>

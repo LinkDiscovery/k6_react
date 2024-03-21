@@ -33,11 +33,11 @@ export default function Lotto() {
     return (
         <div className="flex flex-col 
                         justify-center items-center
-                        w-full h-full">
+                        w-full h-full" >
             <div className="flex flex-row justify-center items-center">
                 {lottonum}
             </div>
-            <div>
+            <div >
                 <TailButton caption='로또번호생성'
                     color='blue'
                     handleClick={handleLottoClick} />

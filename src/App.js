@@ -5,7 +5,8 @@
 // import BoxOfficeTb from './05_1/BoxOfficeTb';
 // import Lotto from './06/Lotto';
 // import FoodCard from './07/FoodCard';/
-import FoodMain from './07/FoodMain';
+// import FoodMain from './07/FoodMain';
+import MyClock from './08/MyClock';
 
 
 import './App.css';
@@ -29,7 +30,7 @@ function App() {
           </tr>
         </thead> */}
     
-        <FoodMain />
+        <MyClock />
 
       </main>
       <footer className='flex justify-center items-center text-white bg-slate-800 h-20'>

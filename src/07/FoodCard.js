@@ -30,8 +30,8 @@ export default function FoodCard({fobj}) {
        <h2 className='w=full
       text-gray-500 text-sm p-1'>{fobj["사업장 소재지"]} </h2>
        <h2 className='w=full h-8
-      bg-stone-900  text-white p-1' 
-
+      bg-stone-900  text-white p-1 truncate' 
+        
       > {change && `Tel : ${fobj["연락처(대표번호)"]} , Fax : ${fobj["팩스번호"]}`} </h2>
       </div>
       

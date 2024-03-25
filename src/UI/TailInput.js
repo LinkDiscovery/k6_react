@@ -1,10 +1,11 @@
 
 
-export default function TailInput({type , ref, ph}) {
+export default function TailInput({type , inputRef, ph,handleChange}) {
   return (
     <div>
       <input type={type} 
-            ref={ref}
+            ref={inputRef}
+            onChange = {handleChange}
             className="bg-gray-50 border
              border-gray-300
               text-gray-900 text-sm

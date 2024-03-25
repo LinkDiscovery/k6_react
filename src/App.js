@@ -9,8 +9,8 @@
 // import MyClock from './08/MyClock';
 // import TrafficMain from './09/TrafficMain';
 // import RefVal from './10/RefVal';
-import RefInput from './10/RefInput';
-
+// import RefInput from './10/RefInput';
+import BoxOfficeTbRe from './05/BoxOfficeTbRe';
 
 import './App.css';
 
@@ -33,7 +33,7 @@ function App() {
           </tr>
         </thead> */}
     
-        <RefInput />
+        <BoxOfficeTbRe />
 
       </main>
       <footer className='flex justify-center items-center text-white bg-slate-800 h-10'>

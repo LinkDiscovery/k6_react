@@ -7,7 +7,9 @@
 // import FoodCard from './07/FoodCard';/
 // import FoodMain from './07/FoodMain';
 // import MyClock from './08/MyClock';
-import TrafficMain from './09/TrafficMain';
+// import TrafficMain from './09/TrafficMain';
+// import RefVal from './10/RefVal';
+import RefInput from './10/RefInput';
 
 
 import './App.css';
@@ -31,7 +33,7 @@ function App() {
           </tr>
         </thead> */}
     
-        <TrafficMain />
+        <RefInput />
 
       </main>
       <footer className='flex justify-center items-center text-white bg-slate-800 h-10'>

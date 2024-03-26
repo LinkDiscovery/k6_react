@@ -22,7 +22,7 @@ function App() {
       <header className='flex justify-between items-center p-10 h-20 text-xl font-bold text-zinc-700 bg-lime-100'>
         <div>리액트 실습</div>
       </header>
-      <main className='h-3/4 glow flex flex-col justify-center text-start items-center '>
+      <main className='glow flex flex-col justify-center text-start items-center '>
         {/* <thead>
           <tr className=" h-10 text-center bg-white-600 text-black">
             <th className="w-10">순위</th>
@@ -36,7 +36,7 @@ function App() {
         <GalleryMain />
 
       </main>
-      <footer className='flex justify-center items-center text-white bg-slate-800 h-10'>
+      <footer className='flex justify-center items-center text-white bg-slate-800 h-20 text-base'>
         @ 2024 shinkyunyoung. All rights reserved.
       </footer>
     </div>

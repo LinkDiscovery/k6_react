@@ -5,7 +5,7 @@ export default function GalleryCard({title,location,url,ktag}) {
     // const location = GallreryData.galPhotographyLocation
     // const url = GallreryData.galWebImageUrl
     // let ktag = GallreryData.galSearchKeyword
-
+   
     if(ktag.includes(',')){
         ktag = ktag.split(',').map(item=>
            <span key = {item}

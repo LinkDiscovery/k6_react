@@ -15,7 +15,7 @@ export default function TailButton({caption, color, handleClick}) {
 
     
 
-    const bColor = `m-2 p-4 py-2 rounded-md
+    const bColor = `w-full m-2 p-4 py-2 rounded-md
                     ${colorObj[color]} 
                     ${hoverObj[color]} text-white`
     

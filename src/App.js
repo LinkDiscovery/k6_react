@@ -10,10 +10,10 @@
 // import TrafficMain from './09/TrafficMain';
 // import RefVal from './10/RefVal';
 // import RefInput from './10/RefInput';
-import BoxOfficeTbRe from './05/BoxOfficeTbRe';
-
+// import BoxOfficeTbRe from './05/BoxOfficeTbRe';
+// import GalleryCard from './11/GalleryCard';
 import './App.css';
-
+import GalleryMain from './11/GalleryMain';
 
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
           </tr>
         </thead> */}
     
-        <BoxOfficeTbRe />
+        <GalleryMain />
 
       </main>
       <footer className='flex justify-center items-center text-white bg-slate-800 h-10'>
